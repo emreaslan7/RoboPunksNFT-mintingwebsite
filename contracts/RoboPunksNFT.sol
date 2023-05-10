@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.4;
 
 // Uncomment this line to use console.log
 // import "hardhat/console.sol";
@@ -14,7 +14,7 @@ contract RoboPunksNFT is ERC721, Ownable {
     uint8 public maxPerWallet;
     bool public isPublicMintEnabled;
     string internal baseTokenUri;
-    address payable public withdrawWallet;
+    address public withdrawWallet;
     mapping (address => uint8) public walletMints;
 
     constructor() payable ERC721('RoboPunksNFT', 'RB'){
@@ -22,7 +22,7 @@ contract RoboPunksNFT is ERC721, Ownable {
         totalSupply = 0;
         maxSupply = 1000;
         maxPerWallet = 3;
-        withdrawWallet = '0x467D460F57D31716eeDed25c5e2f121720108aF8';
+        withdrawWallet = 0x467D460F57D31716eeDed25c5e2f121720108aF8;
     }
 
     function setIsPublicMintEnabled(bool isPublicMintEnabled_) external onlyOwner{
@@ -39,8 +39,8 @@ contract RoboPunksNFT is ERC721, Ownable {
     }
 
     function withdraw() external onlyOwner {
-        (bool success, ) = withdrawWallet.call{value : address(this).balance}('');
-        require(success, "withdraw is failed")
+        (bool success, ) = payable(withdrawWallet).call{value : address(this).balance}('');
+        require(success, "withdraw is failed");
     }
 
     function mint(uint256 quantity_) public payable {
