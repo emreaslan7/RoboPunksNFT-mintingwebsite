@@ -1,0 +1,20 @@
+{
+    "description": "It's 2078. Can the RoboPunks NFT save humans from destructive rampant NFT speculation?", 
+    "external_url": "https://emreaslan.vercel.app", 
+    "image": "https://ipfs.filebase.io/ipfs/QmUSZ2S6WZauDB1SrSSmdygVuZqCNdYnY7Gcfr93EYsZDL", 
+    "name": "A RoboPunk Robot",
+    "attributes": [
+    {
+        "trait_type": "Metal", 
+        "value": "Iron"
+    }, 
+    {
+        "trait_type": "Eyes", 
+        "value": "Love"
+    }, 
+    {
+        "trait_type": "Technology", 
+        "value": "Interplanet"
+    }
+  ]
+}
