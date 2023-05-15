@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# RoboPunksNFT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+    It's 2078. Can the RoboPunks NFT save humans from destructive rampant NFT speculation?
 
-In the project directory, you can run:
 
-### `npm start`
+This project is developed for improving ERC721 NFT contracts, solidity, hardhat and openzeppelin
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+[RoboPunksNFT.app](https://robo-punks-nft-git-master-emreaslan7.vercel.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Desktop | Mobile |
+| --- | --- |
+| ![Desktop](./src/assets/ss/robopunks-desktop.png)| ![Mobil](./src/assets/ss/robopunks-mobile.png) |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+## Tech Stack
+<div style="align:center">
+<a target="_blank"><img style="margin: 10px" src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="React" height="40" /></a>
+<a target="_blank"><img style="margin: 0px" src="https://learnblockchain.cn/docs/solidity/0.5.9/_images/logo.svg" alt="React" height="60" /></a>
+<a target="_blank"><img style="margin: 10px" src="https://seeklogo.com/images/E/ethers-logo-D5B86204D8-seeklogo.com.png" alt="React" height="40" /></a>
+<a target="_blank"><img style="margin: 10px" src="https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png" alt="React" height="35" /></a>
+<a target="_blank"><img style="margin: 10px" src="https://www.solodev.com/file/3d5e1296-e69b-11ec-b9ad-0eaef3759f5f/OpenZeppelin-Logo-Icon.png" alt="React" height="40" /></a>
+<a target="_blank"><img style="margin: 10px" src="https://imgs.search.brave.com/fTxRgK_A7XTOndBBksjb4897NxBz8G8fbUAh7dn1ah4/rs:fit:522:514:1/g:ce/aHR0cHM6Ly9vc2F3/YXJkcy5jb20vcmVh/Y3QvcGljL2NoYWty/YS5wbmc" alt="HTML5" height="40" /></a>  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+</div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Environment Variables
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run this project you will need to add the following environment variables to your .env file
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `REACT_APP_GOERLI_URL`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `REACT_APP_ETHERSCAN_API_KEY`
 
-### Code Splitting
+- `REACT_APP_PRIVATE_KEY`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
+<br>
 
-### Analyzing the Bundle Size
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can share your feedback about the project with me. If you encounter any issues, please feel free to email me at:
 
-### Making a Progressive Web App
+- Email: emreaslan.eth@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you!
